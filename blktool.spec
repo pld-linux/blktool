@@ -2,7 +2,7 @@ Summary:	Replacement for "hdparm"
 Summary(pl):	Zamiennik programu hdparm
 Name:		blktool
 Version:	4
-Release:	0.1
+Release:	0.2
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
@@ -41,7 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS CREDITS ChangeLog NEWS README THANKS TODO
-%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
-%attr(755,root,root) %{_bindir}/*
-%{_datadir}/%{name}
+%doc AUTHORS ChangeLog NEWS README
+%attr(755,root,root) %{_sbindir}/*
+%{_mandir}/man8/*.8*
