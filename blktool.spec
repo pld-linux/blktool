@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
 URL:		http://sourceforge.net/projects/gkernel/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	glib2-devel >= 2.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
