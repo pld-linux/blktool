@@ -1,5 +1,5 @@
 Summary:	Replacement for "hdparm"
-Summary(pl):	Zamiennik programu hdparm
+Summary(pl.UTF-8):   Zamiennik programu hdparm
 Name:		blktool
 Version:	4
 Release:	0.2
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 blktool aims to be an easier to use, and more generic version of the
 existing utility 'hdparm'.
 
-%description -l pl
-blktool ma byæ ³atwiejsz± w u¿yciu i bardziej ogóln± wersj±
-istniej±cego narzêdzia "hdparm".
+%description -l pl.UTF-8
+blktool ma byÄ‡ Å‚atwiejszÄ… w uÅ¼yciu i bardziej ogÃ³lnÄ… wersjÄ…
+istniejÄ…cego narzÄ™dzia "hdparm".
 
 %prep
 %setup -q
