@@ -1,5 +1,5 @@
 Summary:	Replacement for "hdparm"
-Summary(pl.UTF-8):   Zamiennik programu hdparm
+Summary(pl.UTF-8):	Zamiennik programu hdparm
 Name:		blktool
 Version:	4
 Release:	0.2
